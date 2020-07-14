@@ -1,9 +1,10 @@
+# Average score calculator
 
 num_of_subjects = int(input('Number of subjects: '))
 total_credits, total_score = 0, 0
 credits_list = []
 score_list = []
-# read data
+# read scores and credits
 for i in range(num_of_subjects):
     score, credits = map(int, input(f'#{i+1} score & credits: ').split())
     total_credits += credits
