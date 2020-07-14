@@ -1,3 +1,4 @@
+
 num_of_subjects = int(input('Number of subjects: '))
 total_credits, total_score = 0, 0
 credits_list = []
